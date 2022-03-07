@@ -1,0 +1,119 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');*/
+
+@font-face {
+    src: url(fonts/upheavtt.ttf);
+    font-family: upheav;
+}
+
+:root {
+    --blue: #A4BBD6;
+    --white : #FAF1AC;
+    --yellorange: #FFBE00;
+}
+
+
+
+#skribble1{
+    font-family: upheav;
+    color: var(--yellorange);
+    text-shadow: black;
+    text-align: center;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    font-size: 5em;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 35%;
+    Left: 50%;
+    transform: translatex(-50%);
+}
+
+body{
+    background-color: var(--blue);
+    padding: 0;
+    margin:0;
+    animation: pulse 5s infinite;
+}
+
+
+
+h3 {
+    font-family: upheav;
+    color: var(--yellorange);
+    text-shadow: black;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    font-size: 1.5em;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 2%;
+    Left: 8%;
+    transform: translatex(-50%);
+    }
+
+
+
+
+  
+  .container {
+    position: relative;
+    width: 30%;
+    margin: 280px auto; 
+    padding: 20px 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: black;
+    
+    
+    
+  }
+  
+  .Loading {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .Loading:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: load 5s infinite;
+  }
+  
+  @keyframes load {
+    0% {
+      width: 0;
+      background: var(--yellorange);
+    }
+    
+    25% {
+      width: 40%;
+      background: var(--yellorange);
+    }
+    
+    50% {
+      width: 60%;
+      background: var(--yellorange);
+    }
+    
+    75% {
+      width: 75%;
+      background: var(--yellorange);
+    }
+    
+    100% {
+      width: 100%;
+      background: var(--yellorange);
+    }
+  }
+  
