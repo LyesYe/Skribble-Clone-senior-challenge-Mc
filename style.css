@@ -49,13 +49,13 @@ h3 {
     top: 2%;
     Left: 8%;
     transform: translatex(-50%);
-    }
+  }
 
 
 
 
   
-  .container {
+.container {
     position: relative;
     width: 30%;
     margin: 280px auto; 
@@ -65,10 +65,9 @@ h3 {
     border-color: black;
     
     
-    
   }
   
-  .Loading {
+.Loading {
     position: relative;
     display: inline-block;
     width: 100%;
